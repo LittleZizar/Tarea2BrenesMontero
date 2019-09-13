@@ -1,5 +1,4 @@
 for i in range(5):
+    i = i + 1
+    print('VALOR:', i)
 
-i=i+1
-    
-print('VALOR:',i)
