@@ -1,0 +1,33 @@
+1.	¿Qué es Git?
+Es un software de control de versiones de código de software o de paginas web, gestiona los cambios efectuados en el código para llevar una administración más eficiente del desarrollo del software o producto, permitiendo un fácil acceso a las bifurcaciones y fusiones de código.
+2.	¿Qué es Github?
+Es un servicio de hosting de repositorios en la nube que permite usar Git en una interfaz más sencilla e intuitiva, facilitando el acceso, control y colaboración de las personas involucradas en el proyecto.
+3.	¿Qué es un Branch?
+Un Branch o una rama es una copia puntual del código en el que se trabaja en la cual se pueden efectuar cambios sin alterar el “original”, esto hasta definir si los cambios pasan a ser parte del código original o no.
+4.	¿Qué es un commit?
+Es la acción de guardar los cambios realizados al repositorio original en el cual se trabaja, puede hacerse en un repositorio local o remoto dependiendo del caso.
+5.	¿Qué se entiende cuando se dice que un archivo está “staged”?
+Es un archivo que está confirmado para pasar a ser parte de la versión original del código (commit), ya que se han finalizado todas las modificaciones deseadas de forma adecuada. 
+6.	¿Qué hace el comando git checkout?
+Es un comando que se puede usar para crear ramas o cambiar entre ellas. Por ejemplo: 
+command git checkout -b <branch-name> 
+crea una nueva rama y se cambia a ella.
+7.	Que hace el comando git stash? 
+El comando git stash corresponde a un comando de “guardado rápido”. Este comando toma el estado del espacio de trabajo con todas las modificaciones que se han hecho y lo guarda en una pila provisional. Desde esta pila se podrán recuperar posteriormente y volverlas a aplicar de nuevo sobre el espacio de trabajo.  En otras palabras, ayuda a salvar cambios que no están por ser comprometidos inmediatamente, pero temporalmente. 
+8.	Que hace el comando git add? 
+Este comando agrega archivos al index. Por ejemplo:
+ git add temp.txt
+ agrega un nombre de archivo temp.txt en el directorio local del index.
+9.	Que es Pytest? 
+Pytest es un entorno de pruebas que permite escribir código usando Python. Puede ser utilizado para todos los tipos y niveles de pruebas de software.
+10.	Bajo el contexto de pytest ¿Qué es un “assert”? 
+Assert es una función que se encarga de verificar los valores esperados en pruebas de Python. Por ejemplo: 
+def f(  ):
+	return 3
+
+def funcion_prueba(  ):
+	assert f(  ) == 4
+En este caso el assert “afirma” o verifica que el valor que “retorna” la función f(     ) sea igual (en este caso) a 4. En caso de que no se cumpla la afirmación al llamar la función “función_prueba”, la función retorna error y se interrumpe. En caso de que se cumpla la afirmación, no sucede nada, sino que el programa continúa normalmente.
+
+11.	¿Que es Flake 8?
+Flake 8 es una librería de Python que abarca PyFlakes, pycodestyle y Ned Batchelder’s McCabe script. Es un gran set de herramientas para revisar código fuente contra estilo de código (PEP8), errores de programación y revisar complejidad ciclomática (mide el número de caminos independientes a través del código fuente, por ejemplo mientras más ifs haya en una función, mayor será el número de caminos ).
